@@ -1,11 +1,9 @@
 @import url('./globals.css');
 
-
-
 /* === Hero Section Improvements === */
 .hero {
     max-width: 100%;
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
     align-items: center;
@@ -17,6 +15,16 @@
     padding: 3rem 0 2rem 0;
     position: relative;
     overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #43adf9, #bed7f9, #43adf9);
+    border-radius: 18px 18px 0 0;
 }
 
 .hero-content {
@@ -30,6 +38,7 @@
     justify-content: center;
     text-align: center;
 }
+
 
 .hero-text h1 {
     font-size: 3.2em;
@@ -62,18 +71,24 @@
 .hero-buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     margin-bottom: 2em;
     padding: min(1rem, 8%) 0;
     flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    background-color: #06c6f1;
+
 
 }
 
 .cta-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5em;
-    padding: 0.9em 2.2em;
+    padding: min(0.8rem, 6%) 1.5rem;
     border-radius: 30px;
     font-size: 1.1em;
     font-weight: 600;
