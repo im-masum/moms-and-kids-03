@@ -25,7 +25,7 @@
     max-width: 100%;
     width: 800px;
     margin: 3rem auto;
-    padding: min(1rem, 10%) 0;
+    padding: min(1rem, 10%) 1rem;
     position: relative;
     background: var(--bg-main);
     border-radius: 20px;
