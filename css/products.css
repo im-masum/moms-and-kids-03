@@ -63,7 +63,7 @@
 
 
 .products-header p {
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: clamp(2rem, 2vw, 1.2rem);
     color: var(--text-secondary);
     line-height: 1.6;
 }
@@ -77,7 +77,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: stretch;
-    
+
 }
 
 .product-card {
