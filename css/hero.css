@@ -62,8 +62,11 @@
 .hero-buttons {
     display: flex;
     justify-content: center;
-    gap: 1.2em;
+    gap: 1.5rem;
     margin-bottom: 2em;
+    padding: min(1rem, 8%) 0;
+    flex-wrap: wrap;
+
 }
 
 .cta-btn {
