@@ -29,7 +29,7 @@
     position: relative;
     background: var(--bg-main);
     border-radius: 20px;
-    border: 1px solid rgba(67, 173, 249, 0.1);
+    box-shadow: 4px 8px 32px rgba(67, 173, 249, 0.05);
 }
 
 .products-header h2 {
@@ -47,7 +47,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid var(--btn-primary-bg) ;
+    border-bottom: 3px solid var(--btn-primary-bg);
     border-radius: 10px;
 }
 
